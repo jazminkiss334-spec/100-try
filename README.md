@@ -169,21 +169,21 @@ function checkAnswer(){
     else if(level===2){
         if(input.includes("tea") && input.includes("billy")){
             level=3;
-            terminal.innerHTML="LEVEL 2 COMPLETE ✔<br>'If you continue like this maybe today you can love me one hour more.'<br><br>LEVEL 3:<br>Correct the wrong location and day of our first kiss.";
+            terminal.innerHTML="LEVEL 2 COMPLETE ✔<br>'If you continue like this maybe today you can love me one hour more.'<br><br>LEVEL 3:<br>Where was our frist kiss and which day?.";
         } else fail();
     }
 
     else if(level===3){
-        if(input.includes("danube") && input.includes("sunday")){
+        if(input.includes("duna riverside") && input.includes("sunday")){
             level=4;
-            terminal.innerHTML="LEVEL 3 COMPLETE ✔<br><br>LEVEL 4:<br>Answer in one line: food, escape theme, chocolate.";
+            terminal.innerHTML="LEVEL 3 COMPLETE ✔<br><br>LEVEL 4:<br>Which food we ate at our frist night? What was the type of our frist escape room?What type of chocholet you gived me at the frist time in taxi?";
         } else fail();
     }
 
     else if(level===4){
         if(input.includes("spaghetti") && input.includes("egyptian") && input.includes("ferrero")){
             level=5;
-            terminal.innerHTML="LEVEL 4 COMPLETE ✔<br><br>LEVEL 5:<br>What caught you first about me?";
+            terminal.innerHTML="LEVEL 4 COMPLETE ✔<br><br>LEVEL 5:<br>What was the frist thing on you what i liked from the frist time ?";
         } else fail();
     }
 
